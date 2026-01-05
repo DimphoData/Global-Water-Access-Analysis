@@ -9,6 +9,6 @@ Tools and Technologies
 
 B, The Data Process (The "Truthful" Workflow)
 - Data Cleaning and Schema Alignment: The raw CSV file contained structural errors (delimeter collisions) that misaligned data for several countries. I performed manual data cleansing to realign these records, ensuring the intergrity of the downstream analysis.
-- Feauture Engineering: *Population Normalization: Converted raw counts into millions for standardized comparison.
+- Feature Engineering: *Population Normalization: Converted raw counts into millions for standardized comparison.
 - Demographic Derivation: Calculated Rural population shares (100 - Urban%)
 - Data Validation: Applied logic constraints to ensure water access percentages remained within a statistically valid 0 - 100% range.
